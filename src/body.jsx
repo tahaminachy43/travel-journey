@@ -8,13 +8,15 @@ function Body(props){
             <div>
                 <img src={props.item.locater} alt = "locater"/>
                 <h3> {props.item.title}</h3>
+                <p>{props.item.timeline}</p>
+                <p>{props.item.talk}</p>
             </div>
         </div>
 
     )
 }
 
-Body.prototype = {
+Body.propTypes = {
     item: PropTypes.shape({
         img: PropTypes.string.isRequired,
         locater: PropTypes.string.isRequired,
