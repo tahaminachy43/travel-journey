@@ -5,17 +5,18 @@ function Body(props){
     return(
         <div className='body'>
             <img src = {props.item.img} alt ="Image" className='image'/>
-            <div>
-                <img src={props.item.locater} alt = "locater"/>
-                <h3> {props.item.title}</h3>
-                <p>{props.item.timeline}</p>
-                <p>{props.item.talk}</p>
+            <div className='two'>
+                <img src={props.item.locater} alt = "locater" className='locater'/>
+                <p> {props.item.country}</p>
+                <h3 className='title'> {props.item.title}</h3>
+                <p className='timeline'>{props.item.timeline}</p>
+                <p className='talk'>{props.item.talk}</p>
             </div>
         </div>
 
     )
 }
-
+               
 Body.propTypes = {
     item: PropTypes.shape({
         img: PropTypes.string.isRequired,
