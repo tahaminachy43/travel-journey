@@ -1,4 +1,5 @@
-import world from "./assets/png-clipart-earth-drawing-black-and-white-earth-globe-monochrome.png"
+import world from "./assets/Fill 213.svg"
+
 
 function nav(){
     return(
