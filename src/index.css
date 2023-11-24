@@ -59,6 +59,11 @@
   margin: 36px 0px 0px 17px;
 }
 
+.three{
+  display: flex;
+  margin-bottom: 7px;
+}
+
 .locater{
   width: 40px;
   height: 10px;
@@ -70,7 +75,23 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.741px;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
   
+}
+
+.country{
+  width: 40px;
+  height: 10px;
+  flex-shrink: 0;
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.741px;
 }
 
 .title{
@@ -83,6 +104,32 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-left: 20px;
+
+  
+}
+
+.timeline{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.talk{
+  margin-left: 20px;
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+  width: 326px;
 }
 
 

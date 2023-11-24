@@ -6,8 +6,12 @@ function Body(props){
         <div className='body'>
             <img src = {props.item.img} alt ="Image" className='image'/>
             <div className='two'>
-                <img src={props.item.locater} alt = "locater" className='locater'/>
-                <p> {props.item.country}</p>
+                <div className='three'>
+                    <img src={props.item.locater} alt = "locater" className='locater'/>
+                    <p className='country'> {props.item.country}</p>
+
+                </div>
+                
                 <h3 className='title'> {props.item.title}</h3>
                 <p className='timeline'>{props.item.timeline}</p>
                 <p className='talk'>{props.item.talk}</p>
